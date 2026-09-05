@@ -10,14 +10,18 @@ this config is basically for linux (in case i'm using **catchy os** rn)
 
 ## how to install
 
-1. Navigate to the folder:
+1. navigate to the folder:
    ```bash
    cd <your-exact-location>/Steam/steamapps/common/Counter-Strike\ Global\ Offensive/game/csgo/cfg/
    ```
    
-2. Create the file:
+2. create the file:
    ```bash
    nano autoexec.cfg
    ```
    (or paste/copy? yeah up to you)
+
+3. make sure it loads:
+   - Add `+exec autoexec` to your launch options
+   - Or type `exec autoexec` in the console when you launch
 
